@@ -76,7 +76,6 @@ typings/
 .yarn-integrity
 
 # dotenv environment variable files
-.env
 .env*
 
 # parcel-bundler cache (https://parceljs.org/)
@@ -131,3 +130,10 @@ playwright/.cache/
 # Visual Studio Code
 .vscode/
 .history
+
+# Planned work stays local
+*.local.md
+
+# Environment variable files
+.env*
+!.env.example
